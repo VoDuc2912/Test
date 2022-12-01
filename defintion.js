@@ -277,7 +277,7 @@ Blockly.Blocks['moamluong'] = {
 };
 
 
-Blockly.Python['block_type'] = function(block) {
+Blockly.Python['khoidong'] = function(block) {
   var dropdown_tx = block.getFieldValue('TX');
   var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
@@ -286,17 +286,7 @@ Blockly.Python['block_type'] = function(block) {
 };
 
 
-Blockly.Python['block_type'] = function(block) {
-  var dropdown_tx = block.getFieldValue('TX');
-  var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
-  // TODO: Assemble Python into code variable.
-  var code = '...\n';
-  return code;
-};
-
-
-
-Blockly.Python['block_type'] = function(block) {
+Blockly.Python['event'] = function(block) {
   var dropdown_tx = block.getFieldValue('TX');
   var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
@@ -306,7 +296,17 @@ Blockly.Python['block_type'] = function(block) {
 
 
 
-Blockly.Python['block_type'] = function(block) {
+Blockly.Python['phatbainhac'] = function(block) {
+  var dropdown_tx = block.getFieldValue('TX');
+  var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
+  // TODO: Assemble Python into code variable.
+  var code = '...\n';
+  return code;
+};
+
+
+
+Blockly.Python['moamluong'] = function(block) {
   var dropdown_tx = block.getFieldValue('TX');
   var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
