@@ -1,3 +1,7 @@
+Blockly.Blocks['khoidong'] = {
+  init: function() {
+    this.jsonInit(
+
 {
   "type": "khoidong",
   "message0": "Khởi tạo máy nghe nhạc chân TX %1 chân RX %2 %3",
@@ -175,8 +179,13 @@
   "tooltip": "",
   "helpUrl": ""
 }
+    );
+  }
+};
 
-
+Blockly.Blocks['event'] = {
+  init: function() {
+    this.jsonInit(
 {
   "type": "event",
   "message0": "%1",
@@ -215,7 +224,13 @@
   "helpUrl": ""
 }
 
+    );
+  }
+};
 
+Blockly.Blocks['phatbainhac'] = {
+  init: function() {
+    this.jsonInit(
 
 {
   "type": "phatbainhac",
@@ -232,8 +247,14 @@
   "tooltip": "1",
   "helpUrl": ""
 }
+    );
+  }
+};
 
 
+Blockly.Blocks['moamluong'] = {
+  init: function() {
+    this.jsonInit(
 {
   "type": "moamluong",
   "message0": "Mở âm lượng %1 (0-30)",
@@ -250,6 +271,10 @@
   "tooltip": "",
   "helpUrl": ""
 }
+
+    );
+  }
+};
 
 
 Blockly.Python['block_type'] = function(block) {
