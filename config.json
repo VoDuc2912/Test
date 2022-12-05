@@ -1,0 +1,14 @@
+{
+    "name": "Test",
+    "description": "Test",
+    "libs": [
+        
+    ],
+    "blocks": [
+        "defintion.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}
