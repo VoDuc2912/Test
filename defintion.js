@@ -1,4 +1,4 @@
-{
+[{
   "type": "donhietdo",
   "message0": "đo nhiệt độ nước",
   "previousStatement": null,
@@ -6,7 +6,7 @@
   "colour": 160,
   "tooltip": "",
   "helpUrl": ""
-}
+}]
 
 Blockly.Python['donhietdo'] = function(block) {
   // TODO: Assemble Python into code variable.
