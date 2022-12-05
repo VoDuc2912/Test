@@ -1,5 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-  <category name="TEST" colour="#00A06B" icon="music">
+  <category name="TEST" colour="#00A06B" icon="">
     <block type="DoNhietDo"/>
   </category>
 </xml>
