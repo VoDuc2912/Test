@@ -1,4 +1,4 @@
-{
+[{
   "type": "test",
   "message0": "Test",
   "previousStatement": null,
@@ -6,7 +6,7 @@
   "colour": 230,
   "tooltip": "",
   "helpUrl": ""
-}
+}]
 
 Blockly.Python['test'] = function(block) {
   // TODO: Assemble Python into code variable.
