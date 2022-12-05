@@ -1,8 +1,8 @@
 {
     "name": "Test",
-    "description": "",
+    "description": ,
     "libs": [
-        ""
+       
     ],
     "blocks": [
         "definition.js"
@@ -10,5 +10,5 @@
     "toolbox": "toolbox.xml",
     "languages": {
     },
-    "poster": ""
+    "poster": 
 }
