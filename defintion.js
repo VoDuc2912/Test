@@ -22,7 +22,7 @@
     },
     {
       "type": "field_dropdown",
-      "name": "TX",
+      "name": "RX",
       "options": [
         [
           "P6",
@@ -114,7 +114,7 @@
 
 Blockly.Python['s1'] = function(block) {
   var dropdown_tx = block.getFieldValue('TX');
-  var dropdown_tx = block.getFieldValue('TX');
+  var dropdown_tx = block.getFieldValue('RX');
   // TODO: Assemble Python into code variable.
   var code = '...\n';
   return code;
