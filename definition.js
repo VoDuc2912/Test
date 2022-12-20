@@ -184,6 +184,29 @@ Blockly.Blocks['nhac_phat'] = {
   }
 };
 
+Blockly.Blocks['am_luong'] = {
+  init: function() {
+    this.jsonInit(
+{
+  "type": "am_luong",
+  "message0": "mo am luong %1 (0-30)",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "am luong"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 160,
+  "tooltip": "",
+  "helpUrl": ""
+}
+    );
+  }
+};
+	    
+
 
 Blockly.Python['khoi_dong'] = function(block) {
   var dropdown_tx = block.getFieldValue('TX');
@@ -204,6 +227,13 @@ Blockly.Python['phat_nhac'] = function(block) {
 
 Blockly.Python['nhac_phat'] = function(block) {
   var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
+  // TODO: Assemble Python into code variable.
+  var code = '...\n';
+  return code;
+};
+
+Blockly.Python['am_luong'] = function(block) {
+  var value_am_luong = Blockly.Python.valueToCode(block, 'am luong', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
   var code = '...\n';
   return code;
