@@ -117,13 +117,34 @@ Blockly.Blocks['khoi_dong'] = {
 };
 
 
-Blockly.Python['khoi_dong'] = function(block) {
-  var dropdown_tx = block.getFieldValue('TX');
-  var dropdown_rx = block.getFieldValue('RX');
-  // TODO: Assemble Python into code variable.
-  var code = '...\n';
-  return code;
+
+Blockly.Blocks['phat_nhac'] = {
+  init: function() {
+    this.jsonInit(
+
+{
+  type: "nhac_phat",
+  message0: "phat bai nhac so %1",
+  args0: [
+    {
+      type: "input_value",
+      name: "NAME"
+    }
+  ],
+  previousStatement: null,
+  nextStatement: null,
+  colour: 160,
+  tooltip: "",
+  helpUrl: ""
+}
+
+    );
+  }
 };
+
+
+
+
 
 
 Blockly.Blocks['phat_nhac'] = {
@@ -164,6 +185,16 @@ Blockly.Blocks['phat_nhac'] = {
   }
 };
 
+
+Blockly.Python['khoi_dong'] = function(block) {
+  var dropdown_tx = block.getFieldValue('TX');
+  var dropdown_rx = block.getFieldValue('RX');
+  // TODO: Assemble Python into code variable.
+  var code = '...\n';
+  return code;
+};
+
+
 Blockly.Python['phat_nhac'] = function(block) {
   var dropdown_danhsach = block.getFieldValue('DanhSach');
   // TODO: Assemble Python into code variable.
@@ -171,3 +202,10 @@ Blockly.Python['phat_nhac'] = function(block) {
   return code;
 };
 
+
+Blockly.Python['nhac_phat'] = function(block) {
+  var value_name = Blockly.Python.valueToCode(block, 'NAME', Blockly.Python.ORDER_ATOMIC);
+  // TODO: Assemble Python into code variable.
+  var code = '...\n';
+  return code;
+};
