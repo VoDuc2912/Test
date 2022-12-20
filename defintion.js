@@ -35,3 +35,12 @@ Blockly.Blocks['phat_nhac'] = {
     );
   }
 };
+
+
+
+Blockly.JavaScript['phat_nhac'] = function(block) {
+  var dropdown_danhsach = block.getFieldValue('DanhSach');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
