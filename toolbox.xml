@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+<xml xmlns="https://blockly-demo.appspot.com/static/demos/blockfactory/index.html" id="toolbox" style="display: none">
   <category name="SOUND" colour="#00A06B" icon="music">
     <block type="phat_nhac"/>
    
