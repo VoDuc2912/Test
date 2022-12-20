@@ -3,9 +3,9 @@ Blockly.Blocks['phat_nhac'] = {
     this.jsonInit(
 
 	{
-  		"type": "phat_nhac",
-  		"message0": "%1",
-  		"args0": [
+  		type: "phat_nhac",
+  		message0: "%1",
+  		args0: [
     		{
       			"type": "field_dropdown",
      			 "name": "DanhSach",
@@ -25,11 +25,11 @@ Blockly.Blocks['phat_nhac'] = {
      			]
     			}
   		],
- 		"previousStatement": null,
-  		"nextStatement": null,
-  		"colour": 160,
- 		"tooltip": "",
-  		"helpUrl": ""
+ 		previousStatement: null,
+  		nextStatement: null,
+  		colour: 160,
+ 		tooltip: "",
+  		helpUrl: ""
 }
 
     );
