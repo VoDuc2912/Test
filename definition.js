@@ -35,3 +35,11 @@ Blockly.Blocks['phat_nhac'] = {
     );
   }
 };
+
+Blockly.Python['phat_nhac'] = function(block) {
+  var dropdown_danhsach = block.getFieldValue('DanhSach');
+  // TODO: Assemble Python into code variable.
+  var code = 'sound.write(' + dropdown_action + '())\n';
+  return code;
+};
+
