@@ -1,0 +1,6 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="SOUND" colour="#00A06B" icon="music">
+    <block type="phat_nhac"/>
+   
+  </category>
+</xml>
