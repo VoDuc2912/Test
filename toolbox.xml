@@ -1,6 +1,8 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
   <category name="Test" colour="#00A06B" icon="music">
-    <block type="phat_nhac"/>
+    	<block type="khoi_dong"/>
+	<block type="phat_nhac"/>
+
    
   </category>
 </xml>
