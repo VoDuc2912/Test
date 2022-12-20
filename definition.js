@@ -123,21 +123,34 @@ Blockly.Blocks['phat_nhac'] = {
     this.jsonInit(
 
 {
-  type: "nhac_phat",
-  message0: "phat bai nhac so %1",
+  type: "phat_nhac",
+  message0: "%1",
   args0: [
     {
-      type: "input_value",
-      name: "NAME"
+      type: "field_dropdown",
+      name: "DanhSach",
+      options: [
+        [
+          "Phat nhac",
+          "play"
+        ],
+        [
+          "Tam dung",
+          "pause"
+        ],
+        [
+          "Dung phat nhac",
+          "stop"
+        ]
+      ]
     }
   ],
-  previousStatement: null,
+previousStatement: null,
   nextStatement: null,
   colour: 160,
   tooltip: "",
   helpUrl: ""
 }
-
     );
   }
 };
